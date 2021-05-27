@@ -1,0 +1,26 @@
+#edit-form{
+    margin: auto;
+    .input-form{
+        margin: 10px 0;
+        width: 800px;
+        display: flex;
+        label{
+            width: 30%;
+        }
+        input{
+            flex-grow: 1;
+            padding: 5px;
+        }
+    }
+    .submit{
+        margin-top: 20px;
+        text-align: center;
+        .button{
+            padding: 10px 5px;
+            background-color: #0C3B7C;
+            color: white;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+    }
+}

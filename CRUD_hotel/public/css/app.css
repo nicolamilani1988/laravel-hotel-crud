@@ -49,6 +49,38 @@ footer .container {
   margin: auto;
 }
 
+#edit-form {
+  margin: auto;
+}
+
+#edit-form .input-form {
+  margin: 10px 0;
+  width: 800px;
+  display: flex;
+}
+
+#edit-form .input-form label {
+  width: 30%;
+}
+
+#edit-form .input-form input {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+#edit-form .submit {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#edit-form .submit .button {
+  padding: 10px 5px;
+  background-color: #0C3B7C;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

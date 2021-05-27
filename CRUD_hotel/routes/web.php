@@ -25,3 +25,8 @@ Route::get('/employee/{id}','TestController@employee')
 
 Route::get('/deleteEmployee/{id}','TestController@delete')
 -> name ('deleteEmployee');
+
+Route::get('/editEmployee/{id}','TestController@edit')
+-> name('editEmployee');
+Route::post('updateEmployee/{id}','TestController@update')
+-> name('updateEmployee');

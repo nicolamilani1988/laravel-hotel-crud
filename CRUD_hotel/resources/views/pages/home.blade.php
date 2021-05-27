@@ -14,7 +14,7 @@
                     <a href="{{route('employee',$employee-> id)}}">
                         <span>[{{$employee -> id}}]. {{$employee -> firstname}} {{$employee -> lastname}}</span>
                         <span>
-                            <a href="">
+                            <a href="{{route('editEmployee',$employee->id)}}">
                                 &#9998;
                             </a>
                             <a href="{{route('deleteEmployee',$employee->id)}}">
