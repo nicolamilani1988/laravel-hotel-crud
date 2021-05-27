@@ -1,5 +1,8 @@
 @import 'partials/header';
 @import 'partials/footer';
+@import 'partials/homepage';
+@import 'partials/employee-info';
+
 
 *{
     box-sizing: border-box;
@@ -20,6 +23,14 @@ body{
     a{
         color: inherit;
         text-decoration: none;
+    }
+    main{
+        padding: 40px 0;
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
     }
     
 }
