@@ -1,0 +1,25 @@
+header{
+    background-color: #0C3B7C;
+    color: white;
+    .container{
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
+        .logo-container{
+            width: 80px;
+            //height: 100px;
+            img{
+                width: 100%;
+                //height: 100%;
+            }
+        }
+        a.button{
+            background-color: white;
+            color: #0C3B7C;
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid white;
+        }
+    }
+    
+}

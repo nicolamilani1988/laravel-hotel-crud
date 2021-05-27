@@ -1,0 +1,64 @@
+header {
+  background-color: #0C3B7C;
+  color: white;
+}
+
+header .container {
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+header .container .logo-container {
+  width: 80px;
+}
+
+header .container .logo-container img {
+  width: 100%;
+}
+
+header .container a.button {
+  background-color: white;
+  color: #0C3B7C;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+footer {
+  background-color: #0C3B7C;
+  color: white;
+  padding: 20px 0;
+}
+
+footer .container {
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+body .container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+}
+
+body header,
+body footer {
+  background-color: #0C3B7C;
+  color: white;
+}
+
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+

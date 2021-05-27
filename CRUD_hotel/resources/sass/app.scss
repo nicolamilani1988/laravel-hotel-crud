@@ -1,0 +1,25 @@
+@import 'partials/header';
+@import 'partials/footer';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    .container{
+        width: 1140px;
+        margin:auto;
+        display: flex;
+    }
+    header, footer{
+        background-color: #0C3B7C;
+        color: white;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    
+}
