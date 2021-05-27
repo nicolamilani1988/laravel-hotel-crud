@@ -3,7 +3,7 @@
     HomePage
 @endsection
 @section('header-title')
-    GUESTLIST
+    EMPLOYEES
 @endsection
 @section('content')
 

@@ -8,8 +8,4 @@
         @yield('header-title')
     </h1>
 </div>
-<div>
-    <a class="button" href="">
-        Aggiungi Ospite
-    </a>
-</div>
+<div></div>
