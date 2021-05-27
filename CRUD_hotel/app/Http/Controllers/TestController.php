@@ -18,4 +18,11 @@ class TestController extends Controller
         $employee = Employee::findOrFail($id);
         return view('pages.employee', compact('employee'));
     }
+
+    public function delete($id){
+
+        $employee = Employee::findOrFail($id);
+        $employee -> delete();
+        return redirect() -> route('home');
+    }
 }

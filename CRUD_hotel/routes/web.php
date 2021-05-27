@@ -22,3 +22,6 @@ Route::get('/','TestController@home')
 
 Route::get('/employee/{id}','TestController@employee')
 -> name('employee');
+
+Route::get('/deleteEmployee/{id}','TestController@delete')
+-> name ('deleteEmployee');

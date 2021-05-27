@@ -12,7 +12,15 @@
             @foreach ($employees as $employee)
                 <li>
                     <a href="{{route('employee',$employee-> id)}}">
-                        [{{$employee -> id}}]. {{$employee -> firstname}} {{$employee -> lastname}}
+                        <span>[{{$employee -> id}}]. {{$employee -> firstname}} {{$employee -> lastname}}</span>
+                        <span>
+                            <a href="">
+                                &#9998;
+                            </a>
+                            <a href="{{route('deleteEmployee',$employee->id)}}">
+                                &#10060;
+                            </a>
+                        </span>
                     </a>
                 </li>
             @endforeach
